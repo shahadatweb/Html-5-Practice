@@ -1,20 +1,42 @@
-.myphoto img {
-    display: block;
+.list {
+    font-size: 31px;
+}
+ul {
+    list-style-type: disclosure-closed;
+}
+.link {
+    text-align: center;
+}
+.link a {
+    font-size: 50px;
+    background: red;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: .5s all;
+}
+/* a:visited {
+    background: black;
+    color: beige;
+} */
+a:hover {
+    background: green;
+    color: red;
+}
+.flag {
+    width: 500px;
+    height: 250px;
+    background: green;
+    position: relative;
+}
+.carcled {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     margin: auto;
+    border-radius: 100%;
 }
-
-table{
-    border-collapse: collapse;
-}
- td, th{
-     border: 1px solid gray;
-     padding: 0 10px;
- }
-
-
-
-
-
-
-
-
