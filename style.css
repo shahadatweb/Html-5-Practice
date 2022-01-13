@@ -1,3 +1,28 @@
+.flag {
+    width: 500px;
+    height: 250px;
+    background: green;
+    position: relative;
+}
+.carcled {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+.kuoti {
+    width: 15px;
+    height: 175%;
+    background: #646262;
+    position: absolute;
+    right: 0;
+}
 .list {
     font-size: 31px;
 }
@@ -21,22 +46,4 @@ ul {
 a:hover {
     background: green;
     color: red;
-}
-.flag {
-    width: 500px;
-    height: 250px;
-    background: green;
-    position: relative;
-}
-.carcled {
-    width: 100px;
-    height: 100px;
-    background: red;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    border-radius: 100%;
 }
